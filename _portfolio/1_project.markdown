@@ -1,55 +1,25 @@
 ---
 layout: post
-title: Project
-description: a project with a background image
-img: /img/12.jpg
+title: कांग्रेसद्वारा आन्दोलनका कार्यक्रम घोषणा
+date: 2018-07-17 13:30
+description: चिकित्सा शिक्षा विधेयक मुख्य मुद्दा 
+img: https://assets-cdn-usac.kantipurdaily.com/uploads/source/news/kantipur/2018/nepali-congress-flag-04102017072936-1000x0-2232018071853-1000x0.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
-
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /img/12.jpg
-	---
-
-
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+	<img class="col three" src="https://assets-cdn-usac.kantipurdaily.com/uploads/source/news/kantipur/2018/nepali-congress-flag-04102017072936-1000x0-2232018071853-1000x0.jpg">
 </div>
 <div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
+	प्रमुख प्रतिपक्ष कांग्रेसले सरकारका पछिल्ला निर्णय र गतिविधिका विरुद्ध आन्दोलनका कार्यक्रम घोषणा गरेको छ ।  
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+प्रतिपक्षीय भूमिका प्रभावकारी हुन नसकेको आरोप खेपिरहेका बेला कांग्रेसको मंगलबार विहान पार्टी केन्द्रीय कार्यालय सानेपामा बसेको पदाधिकारी बैठकले साउन ३ गतेदेखि आन्दोलनका कार्यक्रम घोषणा गरेको हो।
 
+सरकारले डा गोविन्द केसीसंँग भएको सम्झौता अनुसारको चिकित्सा विधेयक संसदमा नल्याएको विरोधमा कांग्रेसले संसद अवरोध गर्दै आएको छ।
 
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+यही मुद्दालाई केन्द्रविन्दुमा राखेर उसले सडक आन्दोलनको घोषणा गरेको हो। सरकार जनवादी केन्द्रियताको शैलीमा अघि बढेको ठहर समेत कांग्रेसले गरेको छ।
 
+कांग्रेसको निर्णय अनुसार ३ गते संघीय संसद र सातवटै प्रदेशसभाका बैठक अवरुद्ध गर्ने निर्णय छ। सोही दिन प्राध्यापक संघ र नेपाल चिकित्सक संघको नेतृत्वमा संयुक्त जुलुश प्रदर्शन गर्ने निर्णय कांग्रेसको छ।
 
-<br/><br/><br/>
+<a href="https://www.kantipurdaily.com/news/2018/07/17/153182186634385630.html" target="blank">थप पढ्नुहोस्</a>
 
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
-
-	<div class="img_row">
-	  <img class="col two" src="/img/6.jpg"/>
-	  <img class="col one" src="/img/11.jpg"/>
-	</div>

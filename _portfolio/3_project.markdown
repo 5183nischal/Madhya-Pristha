@@ -1,56 +1,22 @@
 ---
 layout: post
-title: Project
-description: a project that redirects to another website
-img:
-redirect: https://unsplash.com
+title: After The Kingdom
+description: What next for Nepal?
+img: http://www.caravanmagazine.in/wp-content/uploads/files/after-the-kingdom_caravan-magazine_october-2014-03.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
-
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /img/12.jpg
-	---
-
-
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+	<img class="col three" src="http://www.caravanmagazine.in/wp-content/uploads/files/after-the-kingdom_caravan-magazine_october-2014-03.jpg">
 </div>
 <div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
-</div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
+	Women formed a large part of the Maoists’ political cadre and army. 
 </div>
 
 
-<br/><br/><br/>
+NEPAL WAS FIRST PROMISED a constitution written by a democratically elected assembly in 1951. A popular movement had just returned to power King Tribhuvan Shah, ending a century of autocratic, hereditary rule by the Ranas, chief ministers who exercised effective control while keeping an ostensibly sovereign monarch on the throne. Tribhuvan had allied against the Ranas with forces such as the Nepali Congress and the Communist Party of Nepal, banned parties founded on Indian soil, many of whose activists cut their teeth in the Indian independence struggle. Though Nepal was never colonised, the Ranas were in many ways servile to the British; among other things, they supplied cheap mercenaries to the British military, deferred much foreign policy to the British government, and sent troops to help quell the 1857 uprising in India. After 1947, the new Indian government threw its weight behind the anti-Rana coalition. As part of his elevation, Tribhuvan agreed to usher in multi-party democracy, and hold elections for a constitutional assembly.
 
+Tribhuvan died in 1955, his promises unfulfilled, and left the throne to his son Mahendra. A struggle ensued between the new king and a Congress-led transitional government formed in 1951. In 1959, Mahendra unilaterally promulgated a multi-party constitution that preserved much of the monarchy’s power, which the political parties accepted in return for the guarantee of democratic elections. When the Congress swept those polls, Mahendra seized power by force, banned all parties, and suspended the constitution.
 
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
+In 1962, Mahendra decreed a new constitution that established government by a system of panchayat councils that, though ostensibly democratic, preserved royal power. Over the next three decades, the antagonism between the palace and the democratic parties simmered, and then boiled over, culminating in a bloody uprising led by the Congress and a cohort of leftist parties against the next monarch, Birendra, in 1990. Birendra first loosed the security forces against the protestors, but was later forced to negotiate, and the result was a re-establishment of multi-party democracy. But the parties, even from a position of strength, settled for a constitution that was equivocal on the role of the king, who retained a potentially pivotal influence as a constitutional monarch.
 
-	<div class="img_row">
-	  <img class="col two" src="/img/6.jpg"/>
-	  <img class="col one" src="/img/11.jpg"/>
-	</div>
+<a href="http://www.caravanmagazine.in/reviews-essays/after-kingdom" target="blank">थप पढ्नुहोस्</a> 

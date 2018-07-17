@@ -1,55 +1,32 @@
 ---
 layout: post
-title: Project
-description: a project with a background image
-img: /img/2.jpg
+title: शताब्दी पुरुषको जीवनकथा
+date: 2018-07-17 13:30
+description: सत्यमोहन जोशीका पुर्खा
+img: https://assets-cdn.ekantipur.com/images/the-kathmandu-post-archive/2014/20141210satya-mohan-joshi-hospitalised-300x0.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
-
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /img/12.jpg
-	---
-
-
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+	<img class="col three" src="https://assets-cdn.ekantipur.com/images/the-kathmandu-post-archive/2014/20141210satya-mohan-joshi-hospitalised-300x0.jpg">
 </div>
 <div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
-</div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
+	सत्यमोहन जोशीका पुर्खा :  
 </div>
 
 
-<br/><br/><br/>
+नेवार जातिलाई पहिला नेवाल भनिन्थ्यो । क्रमशः ‘ल’ हटेर यो जाति नेवाः या नेवार हुन थाल्यो । यो जातिले नेपाली माटोमा प्राचीनकालदेखि नै जरा गाडेको हो । भनौं नेवार काठमाडौँ उपत्यकाका आदिवासी हुन् ।
 
+नेपालको प्रथम राजवंश गोपालवंश हो र गोपालवंश पहिलो नेवार जातिको समुदाय हो । यस वंशले करिव ५०० वर्ष राज्य चलायो । नेवार समुदायको पुर्खाचाहिँ ज्यापू नै हुन् । मल्ल कालदेखि नै नेवारी भाषालाई ‘नेपाल भाषा’ भन्न थालियो । नेवारी लिपि चाहिं ईश्वी संवत् दसौँ शताब्दीबाट देखा परेको हो ।
 
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
+सत्यमोहन जोशी आफूलाई परम्परावादी नेवार मान्छन् । उनी जनै लगाउँछन् र गायत्री मन्त्र जप नगरी अन्न खाँदैनन् । उनका बाजे नरसिंहराज जोशी काठमाडौँका आदिवासी थिए । उनी पनि धर्म संस्कृतिका कट्टर थिए ।
 
-	<div class="img_row">
-	  <img class="col two" src="/img/6.jpg"/>
-	  <img class="col one" src="/img/11.jpg"/>
-	</div>
+सत्यमोहन जोशीका बुबा पनि धर्म, संस्कृति र जातियताका पक्षपाती थिए । उनी राणाका घरेलु कामदार थिए । उनी लेखन्दासको पनि काम गर्थे । एउटा मुद्धामा परेर उनी सर्वनास पनि भए । तर अनेक सङ्घर्ष खेपेर धेरै पछि उनले एउटा थोत्रो घर किने । अनि त्यसैवर्ष प्रथम सन्तानका रूपमा सत्यमोहन जोशी जन्मे ।
+
+जोशीको जन्म :
+सत्यमोहन जोशीको जन्म १९७७ साल वैशाख ३० गते ललितपुरको बखुम्बहालमा भएको थियो । सानामा यी अति चकचके थिए । पिट्ता, कुट्ता पनि नभएपछि यिनलाई घरमा नै बाँधेर राखिन्थ्यो । त्यसो नगेको भए यिनी इनारमा पनि फाल हान्न सक्थे र घरको धुरीबाट पनि हाम फाल्न सक्थे । तर त्यतिखेर यी लाटा थिए । यिनका कुरा बुबा आमाले ईशारामा बुझ्नु पर्थ्यो । ५ वर्षसम्म पनि बोली नफुटेकोले यिनलाई भक्तपुरको सूर्यविनायको जङ्गलमा छाडिएको थियो । त्यसबेला जङ्गलमा एक्लो भएको अनुभूति भएपछि जोशी ‘माँ, ए माँ !’ भनेर चिच्याएका थिए ।
+
+जोशीले सात वर्षको उमेरमा नेवारी भाषाको प्रथम अक्षर लेखे । १० वर्ष पुगेपछि यिनले नेपाली भाषा बोल्न थाले । तर उनी त्यो भाषा बोल्न राम्ररी जान्दैन थिए । त्यसैले उनी नेवारीमा मात्र बोल्थे ।   
+
+<a href="https://www.samakalinsahitya.com/index.php?show=detail&art_id=6317" target="blank">थप पढ्नुहोस्</a> 
+
+### नरेन्द्रराज प्रसाई
