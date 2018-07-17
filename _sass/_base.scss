@@ -37,7 +37,7 @@ $grey-color-light: #ddd;  /* navigation bar border */
 $text-color:     #666;
 
 /* Set theme color *************************/
-$theme-color:   $red;
+$theme-color:   $blue;
 
 
 /************************************************************/
@@ -51,7 +51,7 @@ body {
     line-height: $base-line-height;
     font-weight: 100;
     color: $text-color;
-    background-color: $background-color;
+    background-color: #fff;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -130,14 +130,15 @@ a {
     }
     */
     &:hover {
-        color: $theme-color;
+        color: $purple;
         text-decoration: none;
     }
 }
 
 article a {
-    color: $theme-color;
+    color: $red;
     font-weight: 100;
+    
 
     &:hover {
         text-decoration: none;

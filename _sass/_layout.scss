@@ -6,7 +6,7 @@
 border-bottom: 1px solid $grey-color-light;
 background-color: #fff;
 opacity: 1;
-position:fixed;
+position:relative;
 left:0px;
 top:0px;
 height:56px;
@@ -22,7 +22,7 @@ letter-spacing: -1px;
 margin-bottom: 0;
 &:hover {
 text-decoration: none;
-color: $theme-color;
+color: $red;
     }
 }
 .site-nav {
@@ -234,7 +234,7 @@ text-align: center;
 }
 .thumbnail a:hover span {
 display: block;
-background: rgba(0,0,0,0.9)
+background: rgba(0,0,0,0.8)
 }
 /** 
  * Portfolio pages **********************************************************
