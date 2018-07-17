@@ -4,8 +4,7 @@ email: nischal.mainali@nyu.edu
 description: > # this means to ignore newlines until "baseurl:"
   Curated Articles from Nepali media spanning Society, Politics, and Literature
 baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
-baseurl: https://5183nischal.github.io/Madhya-Pristha/
+url: "http://nischalmainali.me/" # the base hostname & protocol for your site
 twitter_username: psharma3123
 github_username:  5183nischal
 
