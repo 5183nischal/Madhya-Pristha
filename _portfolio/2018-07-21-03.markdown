@@ -1,6 +1,7 @@
 ---
 layout: post
 title: After The Kingdom
+date: 2018-07-17 13:30
 description: What next for Nepal?
 img: http://www.caravanmagazine.in/wp-content/uploads/files/after-the-kingdom_caravan-magazine_october-2014-03.jpg
 ---

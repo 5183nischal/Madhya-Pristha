@@ -5,13 +5,14 @@
 .site-header {
 border-bottom: 1px solid $grey-color-light;
 background-color: #fff;
-opacity: 0.75;
+opacity: 1;
 position:fixed;
 left:0px;
 top:0px;
 height:56px;
 width:100%;
 z-index: 50;
+border: none!important;
 }
 
 .site-title {
@@ -233,7 +234,7 @@ text-align: center;
 }
 .thumbnail a:hover span {
 display: block;
-background: rgba(0,0,0,0.8)
+background: rgba(0,0,0,0.9)
 }
 /** 
  * Portfolio pages **********************************************************
