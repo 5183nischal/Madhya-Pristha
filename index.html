@@ -5,33 +5,15 @@ layout: page
 <div class="header-bar">
   <h1>पुरानो रेडियो</h1>
   <p><font size="4">समाज, राजनीति, साहित्य </font></p>
-  <br>
   <hr>
   </br>
 </div>
-{% for project in site.portfolio %}
 
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %} 
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-{% else %}
+{% for project in site.portfolio %}
 
 <div class="project ">
     <div class="thumbnail">
-        <a href="{{ site.baseurl }}{{ project.url }}">
+        <a href="{{ site.baseurl }}articles.html#{{ project.id }}">
         {% if project.img %}
         <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}
@@ -46,6 +28,5 @@ layout: page
     </div>
 </div>
 
-{% endif %}
 
 {% endfor %}

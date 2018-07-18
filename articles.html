@@ -1,0 +1,19 @@
+---
+layout: page
+title: "  "
+---
+
+<div class="header-bar">
+  <h1>पुरानो रेडियो</h1>
+  <p><font size="4">समाज, राजनीति, साहित्य </font></p>
+  <hr>
+</div>
+
+{% for project in site.portfolio %}
+
+<a id="{{project.id}}"></a>
+{{ project}}
+<hr>
+
+
+{% endfor %}

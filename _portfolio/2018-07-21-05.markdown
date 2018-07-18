@@ -1,6 +1,5 @@
 ---
 layout: post
-id: 2018-07-17-03
 title: After The Kingdom
 date: 2018-07-17 13:30
 description: What next for Nepal?
