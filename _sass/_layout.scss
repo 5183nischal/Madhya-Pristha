@@ -136,6 +136,7 @@ margin-bottom: $vertical-spacing-unit;
 font-size: 42px;
 letter-spacing: -1px;
 line-height: 1;
+color: $grey-color-dark;
 @include media-query($on-laptop) {
 font-size: 36px;
     }
@@ -227,14 +228,15 @@ top: 0;
 left: 0;
 bottom: 0;
 right: 0;
-background: rgba(0,0,0,0.6);
+background: linear-gradient(rgba(0,0,0,0.3)   0%, rgba(0,0,0,0.6) 100%);
+transition: 0.3s;
 color: $grey-color-light;
 padding: 40px;
 text-align: center;
 }
 .thumbnail a:hover span {
 display: block;
-background: rgba(0,0,0,0.8)
+background: linear-gradient(rgba(0,0,0,0.6)    0%, rgba(0,0,0,0.9) 100%);
 }
 /** 
  * Portfolio pages **********************************************************
@@ -275,4 +277,31 @@ color: $caption_color;
 text-align: center;
 vertical-align: middle;
 font-size: $caption_font_size;
+}
+
+//copied from : https://codepen.io/leincetta/pen/pJyrpg
+@mixin overlay-color($overlay-class, $color) {
+  & > a .overlay-#{$overlay-class} {
+  position:absolute;
+  width:250px;
+  height:445px;
+  transition:background-color .3s ease-in-out;
+  background-color:rgba($color,.4);
+    &:hover {
+      background-color:rgba($color,0);
+      cursor:pointer;
+    }
+  }  
+}
+
+// Define the colors:
+$colorone:#fff000;
+$colortwo:#40DBE5;
+
+.overlay-container {
+  text-align: center;
+  position: fixed;
+  // Add as many variations as you want:
+  @include overlay-color(yellow, $colorone);
+  @include overlay-color(blue, rgba(0,0,0,0.6));
 }
