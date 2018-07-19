@@ -259,6 +259,7 @@ float: left;
 object-fit: cover;
 box-sizing:border-box;
 padding: $img_spacing;
+position: relative
 }
 .right{
 float: right;
@@ -300,8 +301,8 @@ $colorone:#fff000;
 $colortwo:#40DBE5;
 
 .overlay-container {
-  text-align: center;
-  position: fixed;
+  text-align: right;
+  position: relative;
   // Add as many variations as you want:
   @include overlay-color(yellow, $colorone);
   @include overlay-color(blue, rgba(0,0,0,0.6));
