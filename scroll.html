@@ -2,21 +2,13 @@
 layout: default_onlyheader
 title: "  "
 ---
-<br><br>
+<br>
 <div class="support-scrollsnap"></div>
 
 <div class="scroll-container">
 
 	{% for project in site.portfolio %}
-		<a id="{{ project.id}}">
-			<div class="scroll-area">
-				{{ project }}
-			</div>
-		</a>
+		<div class="scroll-area">{{ project }}</div>
 	{% endfor %}
 
 </div>
-
-
-
-

@@ -1,5 +1,6 @@
 ---
 layout: post
+id: 07
 title: After The Kingdom
 date: 2018-07-17 13:30
 description: What next for Nepal?
@@ -13,11 +14,7 @@ img: http://www.caravanmagazine.in/wp-content/uploads/files/after-the-kingdom_ca
 	Women formed a large part of the Maoists’ political cadre and army. 
 </div>
 
-
 NEPAL WAS FIRST PROMISED a constitution written by a democratically elected assembly in 1951. A popular movement had just returned to power King Tribhuvan Shah, ending a century of autocratic, hereditary rule by the Ranas, chief ministers who exercised effective control while keeping an ostensibly sovereign monarch on the throne. Tribhuvan had allied against the Ranas with forces such as the Nepali Congress and the Communist Party of Nepal, banned parties founded on Indian soil, many of whose activists cut their teeth in the Indian independence struggle. Though Nepal was never colonised, the Ranas were in many ways servile to the British; among other things, they supplied cheap mercenaries to the British military, deferred much foreign policy to the British government, and sent troops to help quell the 1857 uprising in India. After 1947, the new Indian government threw its weight behind the anti-Rana coalition. As part of his elevation, Tribhuvan agreed to usher in multi-party democracy, and hold elections for a constitutional assembly.
 
-Tribhuvan died in 1955, his promises unfulfilled, and left the throne to his son Mahendra. A struggle ensued between the new king and a Congress-led transitional government formed in 1951. In 1959, Mahendra unilaterally promulgated a multi-party constitution that preserved much of the monarchy’s power, which the political parties accepted in return for the guarantee of democratic elections. When the Congress swept those polls, Mahendra seized power by force, banned all parties, and suspended the constitution.
-
-In 1962, Mahendra decreed a new constitution that established government by a system of panchayat councils that, though ostensibly democratic, preserved royal power. Over the next three decades, the antagonism between the palace and the democratic parties simmered, and then boiled over, culminating in a bloody uprising led by the Congress and a cohort of leftist parties against the next monarch, Birendra, in 1990. Birendra first loosed the security forces against the protestors, but was later forced to negotiate, and the result was a re-establishment of multi-party democracy. But the parties, even from a position of strength, settled for a constitution that was equivocal on the role of the king, who retained a potentially pivotal influence as a constitutional monarch.
 
 <a href="http://www.caravanmagazine.in/reviews-essays/after-kingdom" target="blank">Read more >></a> 

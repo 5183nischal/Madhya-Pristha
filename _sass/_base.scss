@@ -46,6 +46,8 @@ $theme-color:   $blue;
 /**
  * Basic styling
  */
+
+
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -116,6 +118,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
+    line-height: 26px;
 }
 
 
@@ -123,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $text-color;
+    color: $grey-color-dark;
     text-decoration: none;
     /*
     &:visited {
@@ -137,7 +140,7 @@ a {
 }
 
 article a {
-    color: black;
+    color: $red;
     font-weight: 100;
     
 
@@ -197,8 +200,8 @@ pre {
  */ 
 
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+    max-width: -webkit-calc(900px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(900px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;
@@ -212,6 +215,7 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
+
 
 
 /**

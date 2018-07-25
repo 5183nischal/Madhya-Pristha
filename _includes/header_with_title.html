@@ -1,36 +1,34 @@
-<br></br>
 <header class="site-header">
   <div class="wrapper">
     <nav class="site-nav">
       <div class="trigger">
         <!-- {{ site.title }} instead of blog -->
-        {% if page.title%}
-          <a class="page-link" href="{{ site.baseurl }}/">गृह पृष्ठ</a>
+        
+        <a class="page-link" href="{{ site.baseurl }}/">गृह पृष्ठ</a>
 
-        {% else%}
-          {% for page in site.pages %}
-            {% if page.title %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
+        
+        {% for page in site.pages %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+        
 
       </div>
 
     </nav>
     <div class="header-bar">
+      <br>
       {% if page.title_flag%}
         <h1>हाम्रो बारे</h1>
         <br>
       {% else%}
-        <a href="{{ site.baseurl }}/"><h1>पुरानो रेडियो</h1></a>
+        <h1>पुरानो रेडियो</h1>
         <p><font size="4">समाज, कला, विज्ञान </font></p>
       {% endif %}
       
-      <hr>
-      </br>
     </div>
-
+  
   </div>
 
 </header>
