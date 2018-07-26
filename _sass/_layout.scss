@@ -137,6 +137,7 @@ text-align: center;
 .scroll-container,
 .scroll-area {
   margin-top: 10px;
+  margin-bottom:30px;
   max-width: -webkit-calc(100%);
   max-width:         calc(100%);
   height: -webkit-calc(980px - (#{$horizontal-spacing-unit} * 2));
@@ -270,7 +271,7 @@ top: 0;
 left: 0;
 bottom: 0;
 right: 0;
-background: linear-gradient(rgba(0,0,0,0.7)   0%, rgba(0,0,0,0.5) 100%);
+background: linear-gradient(rgba(0,0,0,0.7)   0%, rgba(0,0,0,0.4) 100%);
 transition: 0.3s ease;
 color: $grey-color-light;
 padding: 40px;
@@ -279,7 +280,15 @@ text-align: center;
 .thumbnail a:hover span {
 display: block;
 transform: scale(1.1);
-background: linear-gradient(rgba(0,0,0,0.9)    0%, rgba(0,0,0,0.6) 100%);
+background: radial-gradient(rgba(0,0,0,0.9)    0%, rgba(0,0,0,0.6) 100%);
+}
+.th-top{
+top: 10%;
+left: 50%; 
+}
+.th-bottom{
+top: 80%;
+left: 50%; 
 }
 /** 
  * Portfolio pages **********************************************************
@@ -331,7 +340,7 @@ font-size: $caption_font_size;
   height:520px;
   display:inline-block;
   transition:background-color .3s ease-in-out;
-  background-color:rgba($color,.4);
+  background-color:rgba($color,.2);
     &:hover {
       background-color:rgba($color,0);
       cursor:pointer;
@@ -344,9 +353,17 @@ $colorone:#fff000;
 $colortwo:#40DBE5;
 
 .overlay-container {
-  text-align: right;
+  text-align: center;
   position: relative;
   // Add as many variations as you want:
   @include overlay-color(yellow, $colorone);
-  @include overlay-color(blue, rgba(0,0,0,0.6));
+  @include overlay-color(blue, $blue);
+}
+/* Centered text */
+.centered {
+    font-size: 50px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
