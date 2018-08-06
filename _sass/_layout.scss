@@ -92,19 +92,26 @@ width:100%;
 /**
  * Pagination   **********************************************************
  */
-.pagination{
-max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-text-align: center;
-width: 100%;
-position: fixed;
-bottom: 50px;
-}
-.paginationicon {
-font-size: 50px;
-a {
-color: $theme-color;
+.pagination a, .pagination span {
+    padding: 14px 18px;
+    margin-left: -1px;
+    margin-right: -2px;
+    float:left;
+    background-color: #ffffff;
+    display: inline-block;
+    transition: background-color .3s;
+  }
+
+.pagination a {    
+    &:hover {
+        background-color: #f1f1f1;
+        color: #333;
     }
-}
+ }
+
+.pagination {
+    text-align: center;
+ }
 /**
  * Page content   **********************************************************
  */
@@ -183,7 +190,7 @@ font-size: 36px;
     }
 }
 .post-content {
-scroll-snap-align: end;
+scroll-snap-align: top;
 h2 {
 font-size: 42px;
 @include media-query($on-laptop) {

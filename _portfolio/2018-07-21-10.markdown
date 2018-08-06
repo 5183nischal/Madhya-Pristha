@@ -1,0 +1,20 @@
+---
+layout: post
+id: 07
+title: After The Kingdom
+date: 2018-07-17 13:30
+description: What next for Nepal?
+img: http://www.caravanmagazine.in/wp-content/uploads/files/after-the-kingdom_caravan-magazine_october-2014-03.jpg
+---
+
+<div class="img_row">
+	<img class="col three" src="http://www.caravanmagazine.in/wp-content/uploads/files/after-the-kingdom_caravan-magazine_october-2014-03.jpg">
+</div>
+<div class="col three caption">
+	Women formed a large part of the Maoists’ political cadre and army. 
+</div>
+
+NEPAL WAS FIRST PROMISED a constitution written by a democratically elected assembly in 1951. A popular movement had just returned to power King Tribhuvan Shah, ending a century of autocratic, hereditary rule by the Ranas, chief ministers who exercised effective control while keeping an ostensibly sovereign monarch on the throne. Tribhuvan had allied against the Ranas with forces such as the Nepali Congress and the Communist Party of Nepal, banned parties founded on Indian soil, many of whose activists cut their teeth in the Indian independence struggle. Though Nepal was never colonised, the Ranas were in many ways servile to the British; among other things, they supplied cheap mercenaries to the British military, deferred much foreign policy to the British government, and sent troops to help quell the 1857 uprising in India. After 1947, the new Indian government threw its weight behind the anti-Rana coalition. As part of his elevation, Tribhuvan agreed to usher in multi-party democracy, and hold elections for a constitutional assembly.
+
+
+<a href="http://www.caravanmagazine.in/reviews-essays/after-kingdom" target="blank">Read more >></a> 

@@ -7,13 +7,16 @@ title: "  "
 
 <div class="scroll-container">
 
-	{% for project in site.portfolio %}
+	{% for project in site.posts %}
 		<a id="{{ project.id}}">
 			<div class="scroll-area">
 				{{ project }}
 			</div>
 		</a>
 	{% endfor %}
+
+
+
 
 </div>
 

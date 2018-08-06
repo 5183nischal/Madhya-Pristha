@@ -5,11 +5,15 @@ layout: page
 
 <br><br>
 
-{% for project in site.portfolio %}
+
+
+<!-- This loops through the paginated posts -->
+{% for project in paginator.posts %}
+
 
 <div class="project ">
     <div class="thumbnail">
-        <a href="{{ site.baseurl }}articles.html#{{ project.id }}">
+        <a href="{{ site.url }}/articles.html#{{ project.id }}">
         {% if project.img %}
         <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}
@@ -24,4 +28,33 @@ layout: page
     </div>
 </div>
 
+
 {% endfor %}
+<br></br>
+
+<!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination"> 
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; </a>
+  {% else %}
+    <span>&laquo; </span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="webjeda">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="/">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+  {% else %}
+    <span> &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
